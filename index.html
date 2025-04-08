@@ -6,69 +6,121 @@
   <title>Synexora – Tech in a Flash</title>
   <style>
     body {
+      font-family: Arial, sans-serif;
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      background: #f8f9fa;
+      padding: 0;
       color: #333;
+      line-height: 1.6;
     }
     header {
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      background-color: #0a0a23;
       color: #fff;
-      padding: 40px 20px;
+      padding: 60px 20px;
       text-align: center;
     }
     header h1 {
-      font-size: 36px;
+      font-size: 2.8em;
       margin-bottom: 10px;
     }
     header p {
-      font-size: 18px;
-      font-style: italic;
+      font-size: 1.2em;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
     }
     section {
       padding: 40px 20px;
-      max-width: 800px;
+      max-width: 1000px;
       margin: auto;
     }
-    h2 {
-      color: #007bff;
-      font-size: 28px;
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
     }
-    a {
-      color: #007bff;
-      text-decoration: none;
-    }
-    .cta {
-      background-color: #343a40;
-      color: #fff;
-      padding: 40px 20px;
+    .service-card {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 250px;
       text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-    .cta a {
-      background-color: #28a745;
-      padding: 12px 25px;
-      color: #fff;
-      border-radius: 5px;
-      font-weight: bold;
+    .quote {
+      font-style: italic;
+      text-align: center;
+      margin: 40px auto;
+      max-width: 700px;
+    }
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 20px;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>Welcome to Synexora</h1>
-    <p>Tech in a Flash – Cloud, Content, and Consulting for Tomorrow</p>
+    <h1>Synexora – Tech in a Flash</h1>
+    <p>Seamless cloud solutions, rapid deployment, and transformative digital services – all in one place.</p>
+    <a href="/contact" class="cta-button">Let’s Build Something Brilliant</a>
   </header>
 
   <section>
-    <h2>About Us</h2>
-    <p>Synexora simplifies the tech maze. Whether it's cloud setup, digital strategy, or high-impact content — we offer smart, scalable solutions for the digital age.</p>
-    <p><a href="https://synexora.blogspot.com/p/about_8.html">Read More →</a></p>
+    <h2>About Synexora</h2>
+    <p>
+      Synexora blends synthesis, connection, and innovation to offer futuristic cloud, DevOps, and content solutions. We’re a micro-agile, cloud-first force empowering businesses through smart digital infrastructure and creative consulting.
+    </p>
+    <p><a href="/about">More About Us →</a></p>
   </section>
 
   <section>
     <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>☁️ Cloud Services</h3>
+        <p>Scalable, secure deployments with AWS, Azure & GCP.</p>
+      </div>
+      <div class="service-card">
+        <h3>📦 Containerization & Automation</h3>
+        <p>Docker, Kubernetes, CI/CD pipelines – built fast.</p>
+      </div>
+      <div class="service-card">
+        <h3>🎨 Digital Content & Consultancy</h3>
+        <p>Strategy meets storytelling in the digital world.</p>
+      </div>
+    </div>
+    <p style="text-align:center; margin-top:20px;"><a href="/services">Explore Our Services →</a></p>
+  </section>
+
+  <section>
+    <h2>Why Synexora?</h2>
     <ul>
-      <li>☁️ Cloud Setup & Hosting</li>
-      <li
+      <li>🚀 Flash-fast delivery model</li>
+      <li>🧩 Transparent consulting</li>
+      <li>🎯 Futuristically professional design</li>
+    </ul>
+  </section>
+
+  <section class="quote">
+    <p>“Tech in a flash. That’s not just a tagline — it’s how Synexora delivers.”</p>
+  </section>
+
+  <section>
+    <h2>Get in Touch</h2>
+    <p>Ready to collaborate?<br>Let’s talk tech, strategy, and stories.</p>
+    <p><a href="/contact" class="cta-button">Contact Us</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Synexora. All rights reserved.</p>
+  </footer>
+</body>
+</html>
